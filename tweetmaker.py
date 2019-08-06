@@ -14,10 +14,10 @@ from IPython.display import display
 
 sorted(list(stop_words.ENGLISH_STOP_WORDS))[:20]
 
-consumer_key = 'BivcUFjhHLUqJh2wHx7vTbhqM'
-access_token = '159033588-ooqeO1LuZ1SL4qXUqGnTVs7mkClvqZJz66T4cWii'
-access_secret = 'gP84nBtHPo3HiDjPsN7BR6o0pzHVpSyjjs57gjbQCNUie'
-consumer_secret = "2l4FlvW7ftgTbq6a4ldgeWgR8SqJ82UyiLINyXGZXFsUPHVCz1"
+consumer_key = ""
+access_token = ""
+access_secret = ""
+consumer_secret = ""
 
 def get_api():
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)    
