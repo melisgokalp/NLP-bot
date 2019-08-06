@@ -12,10 +12,10 @@ from sklearn.feature_extraction import stop_words
 
 sorted(list(stop_words.ENGLISH_STOP_WORDS))[:20]
 
-consumer_key = 'BivcUFjhHLUqJh2wHx7vTbhqM'
-access_token = '159033588-ooqeO1LuZ1SL4qXUqGnTVs7mkClvqZJz66T4cWii'
-access_secret = 'gP84nBtHPo3HiDjPsN7BR6o0pzHVpSyjjs57gjbQCNUie'
-consumer_secret = "2l4FlvW7ftgTbq6a4ldgeWgR8SqJ82UyiLINyXGZXFsUPHVCz1"
+consumer_key = ""
+access_token = ""
+access_secret = ""
+consumer_secret = ""
 
 def get_api():
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)    
@@ -100,25 +100,4 @@ Counter = Counter(split_it)
 most_occur = Counter.most_common(50) 
   
 print(most_occur) 
-
-# for tweet in tweets:
-    
-
-#     # We create a pandas dataframe as follows:
-# data = pd.DataFrame(data=[tweet.full_text for tweet in tweets], columns=['Tweets'])
-
-# We display the first 10 elements of the dataframe:
-# display(data.head(10))
-
-# os.chdir('images')
-
-# for image in os.listdir('.'):
-#     api.update_with_media(image)
-#     time.sleep(20)
-# f= open("trtweets.txt","w+")
-#  if "Dwight:" in line: 
-#             f.write(line[8:(len(line))]
-# with open("dwight.txt", "r") as ins:
-#     for line in contweet: 
-#         api.update_status(line)
-#         time.sleep(20)
+ 
